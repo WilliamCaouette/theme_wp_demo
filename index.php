@@ -41,13 +41,7 @@
             </section>
             <section class="quart sidebar">
                 <article>
-                    <h3>Sidebar</h3>
-                    <div class="widget-container">
-                        <!-- widget -->
-                    </div>
-                    <div class="widget-container">
-                        <!-- widget -->
-                    </div>
+                    <?=get_sidebar();?>
                 </article>
             </section>
         </div>

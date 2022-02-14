@@ -37,4 +37,9 @@
             </nav>
         </div>
     </header>
+    <div class="flex conteneur align-right">
+        <form action="<?=esc_url( home_url('/') );?>" method="get">
+            <input type="text" name="s" placeholder="Rechercher">
+        </form>
+    </div>
     <main class="conteneur">

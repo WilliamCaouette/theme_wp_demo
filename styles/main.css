@@ -70,6 +70,12 @@ a{
     gap: 2em;
 }
 
+.align-right{
+    justify-content: flex-end;
+}
+input{
+    margin-bottom: 40px;
+}
 .space-between{
     justify-content: space-between;
 }

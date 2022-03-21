@@ -1,0 +1,23 @@
+{
+  "name": "theme_wp_demo",
+  "version": "1.0.0",
+  "description": "démonstration theme wordpress de base",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamCaouette/theme_wp_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamCaouette/theme_wp_demo/issues"
+  },
+  "homepage": "https://github.com/WilliamCaouette/theme_wp_demo#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

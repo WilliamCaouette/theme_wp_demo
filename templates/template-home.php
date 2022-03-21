@@ -7,7 +7,7 @@ Template Name: Gabarit accueil
     //$args = array('category_name'=>'Techno', 'post_type' => 'post');
     //$query = new WP_Query($args);
 
-    $args = array('category__not_in' => 1);
+    $args = array('category__not_in' => array(1, 36, 37));
     $query = new WP_Query($args);
 
 
@@ -45,6 +45,7 @@ Template Name: Gabarit accueil
                 <?=get_sidebar();?>
             </section>
         </div>
+        <div><?php get_template_part( "templates/parts/latest-reportage"); ?></div>
     
     <?php
     get_footer();

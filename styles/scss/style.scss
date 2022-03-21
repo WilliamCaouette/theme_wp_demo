@@ -1,0 +1,61 @@
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/titles";
+@import "partials/mixins";
+
+
+
+body{
+    font-family: $content-font;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    @include small{
+        background-color: $second-dark-color;
+    }
+    h1 a{
+        color: $second-dark-color;
+        text-decoration: none;
+    }
+    header {
+        background-color: $first-dark-color;
+        padding: 2% 5%;
+        .conteneur{
+            display: flex;
+            
+            nav{
+                width: 100%;
+                ul{
+                    display: flex;
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    list-style-type: none;
+                    gap: 1rem;
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+                    li{
+                        padding: 1rem;
+                        a{
+                            display: block;
+                            padding: 1rem;
+                            text-decoration: none;
+                            color: #E76F51;
+                            @include link($second-dark-color, $first-light-color, $second-dark-color, $first-light-color)
+                        }
+                    }
+                }
+            } 
+            .slogan{
+                color:  $first-light-color;
+            }
+        }
+
+    }
+    main{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+

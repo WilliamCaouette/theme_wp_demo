@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap");
+h1, h2, h3, h4, h5 {
+  font-family: "Lato";
+}
+
+body {
+  font-family: "Roboto";
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #E76F51;
+  }
+}
+body h1 a {
+  color: #E76F51;
+  text-decoration: none;
+}
+body header {
+  background-color: #264653;
+  padding: 2% 5%;
+}
+body header .conteneur {
+  display: flex;
+}
+body header .conteneur nav {
+  width: 100%;
+}
+body header .conteneur nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+body header .conteneur nav ul li {
+  padding: 1rem;
+}
+body header .conteneur nav ul li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #E76F51;
+}
+body header .conteneur nav ul li a {
+  text-decoration: none;
+  color: #E76F51;
+  transition: 200ms ease all;
+}
+body header .conteneur nav ul li a:visited {
+  color: #E76F51;
+}
+body header .conteneur nav ul li a:hover {
+  color: #E9C46A;
+}
+body header .conteneur nav ul li a:active {
+  color: #E9C46A;
+}
+body header .conteneur .slogan {
+  color: #E9C46A;
+}
+body main {
+  width: 80%;
+  margin: auto;
+}
